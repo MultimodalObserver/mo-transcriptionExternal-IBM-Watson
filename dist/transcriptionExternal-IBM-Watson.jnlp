@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="transcriptionExternal-IBM-Watson.jnlp">
+  <information>
+    <title>transcriptionExternal-IBM-Watson</title>
+    <vendor>Lathy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\bfg-1.13.2.jar" size="14420888" download="eager" />
+    <jar href="lib\ibm-watson-8.6.3-jar-with-dependencies.jar" size="8665310" download="eager" />
+    <jar href="lib\multimodal-observer-0.0.1.jar" size="18439276" download="eager" />
+    <jar href="lib\multimodal-observer-server-5-0.0.0.jar" size="42393188" download="eager" />
+    <jar href="lib\speech-to-text-4.2.1.jar" size="56008" download="eager" />
+    <jar href="transcriptionExternal-IBM-Watson.jar" size="22382" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="controller.Main"  name="transcriptionExternal-IBM-Watson" />
+  <update check="always"/>
+</jnlp>
